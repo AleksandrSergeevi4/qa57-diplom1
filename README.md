@@ -18,7 +18,7 @@
 
 1.2. Склонировать проект с GitHub:
          
-         https://github.com/AleksandrSergeevi4/qa57-diplom
+  https://github.com/AleksandrSergeevi4/qa57-diplom
 
 
 ## 2. Запуск авто-тестов:
@@ -34,7 +34,7 @@
 <li> Убедиться что контейнеры запустились командой в терминале:
 
     docker-compose ps      
-
+</ul>
 
 ## 3. Для работы с СУБД MySQL:
 
@@ -51,11 +51,11 @@
 
 ## 3.1. Для работы с СУБД PostgreSQL:
 
-1. Запустить SUT командой в терминале:
+ 1. Запустить SUT командой в терминале:
 
         java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar aqa-shop.jar  
 
-2. Запустить авто-тесты командой в терминале:
+ 2. Запустить авто-тесты командой в терминале:
 
         ./gradlew clean test "-Ddatasource.url=jdbc:postgresql://localhost:5432/app"   
 
@@ -69,4 +69,4 @@
 <li> После просмотра отчета ввести в терминале сочетание клавиш:
 
     CTRL + C        
-
+</ul>
